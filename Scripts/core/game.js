@@ -9,6 +9,7 @@ function init() {
     createjs.Ticker.on("tick", gameLoop, this);
 }
 function gameLoop(event) {
+    helloLabel.rotation += 5;
     stage.update();
 }
 function main() {

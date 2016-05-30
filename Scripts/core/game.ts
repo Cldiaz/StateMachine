@@ -11,6 +11,7 @@ function init():void {
     createjs.Ticker.on("tick",gameLoop, this);
 }
 function gameLoop(event:createjs.Event):void{
+    helloLabel.rotation += 5;
     stage.update();
 }
 
